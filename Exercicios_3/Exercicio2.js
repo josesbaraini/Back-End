@@ -1,6 +1,6 @@
 import entraDados from "readline-sync";
 
-let dia = entraDados.questionFloat("Informe seu dia: (1-7) ");
+let dia = entraDados.questionFloat("Informe seu mês: (1-12) ");
 
 switch (dia) {
     case 1:
@@ -33,16 +33,16 @@ switch (dia) {
         break;
 
     case 9:
-        console.log("Abril")
+        console.log("Setenbro")
         break;
     case 10:
-        console.log("Maio")
+        console.log("Outubro")
         break;
     case 11:
-        console.log("Junho")
+        console.log("Novembro")
         break;
     case 12:
-        console.log("Julho")
+        console.log("Dezembro")
         break;
     default:
         console.log("Esse dia n")
