@@ -10,7 +10,7 @@ class Imovel{
     }
 }
 
-const casa = new Imovel(4,"Casa","Rua da Amizade, 789 - Bairro Alegre");
+const casa = new Imovel(4,"Casa","Rua a Amizade, 789 - Bairro Alegre");
 
 const apartemento= new Imovel(2,"Aprtamento","Avenida da Paz, 123 - Centro")
 
