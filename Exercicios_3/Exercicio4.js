@@ -1,7 +1,7 @@
 import entraDados from "readline-sync";
 
 let categoria = entraDados.question("Informe o sua categoria: ")
-let salario = entraDados.questionFloat("Informe o seu Salario: ")
+let salario = entraDados.questionFloat("Informe o seu salario: ")
 
 
 switch (categoria) {
