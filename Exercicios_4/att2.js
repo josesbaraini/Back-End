@@ -7,6 +7,8 @@ let alunomf=0
 let alunonat=1
 
 while (cont_alunos<num_alunos) {
+
+    
     while (alunonat<5){
         let notaa = entraDados.questionFloat(`Digite a ${alunonat} nota do ${cont_alunos+1} aluno:`)
             aluno_nota+=notaa
