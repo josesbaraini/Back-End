@@ -4,4 +4,6 @@ const pessoa = {
     cidade: "São Paulo"
 };
 
-gfbfbfggb
+for (const key in pessoa) {
+    console.log(`${key}:${pessoa[key]}`)
+}
