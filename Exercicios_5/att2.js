@@ -1,9 +1,9 @@
 import rl from "readline-sync";
 
-let numeros =rl.questionInt("Digite um numero")
+let numeros = rl.questionInt("Digite um numero")
 
 function numero(numeros) {
-    if (numero%2==2) {
+    if (numeros%2==0) {
         return"par"
     }
     else{
@@ -14,7 +14,7 @@ function numero(numeros) {
 
 
 const number = function (numeros) {
-    if (numero%2==2) {
+    if (numeros%2==0) {
         return"par"
     }
     else{
@@ -24,7 +24,7 @@ const number = function (numeros) {
 }
 
 const inteiro = (numeros)=> {
-    if (numero%2==2) {
+    if (numeros%2==0) {
         return"par"
     }
     else{
@@ -34,4 +34,4 @@ const inteiro = (numeros)=> {
 }
 
 
-console.log(number(),numero(),inteiro())
+console.log(number(numeros),numero(numeros),inteiro(numeros))
