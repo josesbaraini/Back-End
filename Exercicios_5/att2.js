@@ -1,10 +1,37 @@
 import rl from "readline-sync";
 
-let numero =rl.questionInt("Digite um numero")
+let numeros =rl.questionInt("Digite um numero")
 
-function name(numero) {
+function numero(numeros) {
     if (numero%2==2) {
-        return""Par
+        return"par"
+    }
+    else{
+        return"impar"
     }
     
 }
+
+
+const number = function (numeros) {
+    if (numero%2==2) {
+        return"par"
+    }
+    else{
+        return"impar"
+    }
+    
+}
+
+const inteiro = (numeros)=> {
+    if (numero%2==2) {
+        return"par"
+    }
+    else{
+        return"impar"
+    }
+
+}
+
+
+console.log(number(),numero(),inteiro())
